@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="styles.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  </head>
+<body>
+  <header class="header section" data-header>
+    <div class="container">
+      <div class="logo">
+        <span>Info</span>
+        <span>Verse</span>
+      </div>
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#news" class="navbar-link hover:underline" data-nav-link>News</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#events" class="navbar-link hover:underline" data-nav-link>Recent Updates</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#jobs" class="navbar-link hover:underline" data-nav-link>Jobs</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="wrapper">
+
+        <button class="search-btn" aria-label="search" data-search-toggler>
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Search</span>
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <span class="span one"></span>
+          <span class="span two"></span>
+          <span class="span three"></span>
+        </button>
+
+        <a href="#" class="btn">Join</a>
+
+      </div>
+
+    </div>
+  </header>
+  <div class="search-bar" data-search-bar>
+
+    <div class="input-wrapper">
+      <input type="search" name="search" placeholder="Search" class="input-field">
+
+      <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+
+    <p class="search-bar-text">Please enter at least 3 characters</p>
+
+  </div>
+
+  <main>
+    <article>
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <strong class="strong">Welcome to InfoVerse.</strong> Get the world's latest news here!
+          </h1>
+
+          <div class="wrapper">
+              <button  class="btn">Know More</button>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section featured" id="news"  aria-label="featured post">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <strong class="strong">Today's News</strong>
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./images/news1.jpeg" width="500" height="600" loading="lazy"
+                    alt="New technology is not good or evil in and of itself" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+
+                  <h3 class="h4">
+                    <a href="https://www.indiatoday.in/india/story/karnataka-withdraw-anti-conversion-law-by-previous-bjp-govt-2393399-2023-06-15" target="_blank" class="card-title hover:underline">
+                      Widhrawl of 'Anti Conversion Law'
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    The Congress, which came to power in Karnataka with a simple majority in May, announced repeal of the anti-conversion law brought in by the previous BJP government in the state. 
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./images/Screenshot (166).png" width="500" height="600" loading="lazy"
+                    alt="It’s a new era in design, there are no rules" class="img-cover">
+
+    
+                </figure>
+
+                <div class="card-content">
+
+
+                  <h3 class="h4">
+                    <a href="https://www.hindustantimes.com/india-news/some-ex-indian-students-deported-or-have-left-canada-minister-101686896245247.html" target="_blank" class="card-title hover:underline">
+                      Some ex-Indian students deported or have left Canada: Immigration minister
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Some of the former Indian students, who allegedly arrived in Canada on study permits based on fake documents, have been removed or have left voluntarily, a Canadian official said.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./images/Screenshot (164).png" width="500" height="600" loading="lazy"
+                    alt="Perfection has to do with the end product" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+               
+
+                  <h3 class="h4">
+                    <a href="https://www.hindustantimes.com/india-news/under-icet-india-and-us-explore-ways-to-deepen-knowledge-partnership-during-modi-s-visit-101686930052243.html" target="_blank" class="card-title hover:underline">
+                      India, US to explore ways to deepen knowledge partnership during PM Modi’s visit
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Prime Minister Narendra Modi will visit Washington DC on June 22 (PTI).Washington India and the US are exploring ways to set up joint research institutes focused on energy and environment, public health and pandemics, agriculture and food security
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./images/news32.jpeg" width="500" height="600" loading="lazy"
+                    alt="Everyone has a different life story" class="img-cover">
+
+               
+                </figure>
+
+                <div class="card-content">
+
+        
+
+                  <h3 class="h4">
+                    <a href="https://edition.cnn.com/2023/06/15/india/india-manipur-violence-deaths-government-silence-intl-hnk/index.html#:~:text=Indian%20army%20soldiers%20on%20patrol,%2C%20India%2C%20on%20June%207.&text=Eleven%20people%20have%20been%20shot,northeast%20Indian%20state%20of%20Manipur." target="_blank" class="card-title hover:underline">
+                      Eleven killed in Manipur as new bout of ethnic violence grips India’s northeast
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    The latest killings come little more than a month after an earlier bout of unrest that saw entire villages burned to the ground, killing dozens and leaving tens of thousands homeless. Since then nearly 3 million people in the state have been largely cut off from the rest of the country, after the government blocked internet services and restricted travel in an effort to contain the violence
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./images/news4.jpeg" width="500" height="600" loading="lazy"
+                    alt="The difference is quality" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="https://indianexpress.com/article/india/tamil-nadu-withdraws-general-consent-to-cbi-8663262/#:~:text=Hours%20after%20Tamil%20Nadu%20minister,out%20probes%20in%20the%20state." target="_blank" class="card-title hover:underline">
+                      Tamil Nadu withdraws general consent for CBI within State
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    The DMK-led government in Tamil Nadu announced that it has withdrawn the general consent given to the Central Bureau of Investigation (CBI), under Section 6 of the Delhi Special Police Establishment (DSPE) Act, allowing the agency to investigate cases without its permission in the State. 
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./images/Screenshot (168).png" width="500" height="600" loading="lazy"
+                    alt="Problems are not stop signs, they are guidelines" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+
+                  <h3 class="h4">
+                    <a href="https://www.indiatimes.com/news/india/gurugram-man-arrested-for-thrashing-stray-dogs-throwing-them-off-his-roof-606132.html" target="_blank" class="card-title hover:underline">
+                      Man arrested for thrashing street dogs in Gurugram
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    After reviewing the CCTV footage, police registered an FIR against the accused under Section 11 (subjecting an animal to unnecessary pain) of The Prevention of Cruelty to Animals Act .
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section recent" id="events" aria-label="recent post">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <h2 class="h2 section-title">
+              Hava a look at Updates regarding <strong class="strong"> Upcoming events</strong>
+            </h2>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./images/Screenshot (184).png" width="550" height="660" loading="lazy"
+                    alt="Creating is a privilege but it’s also a gift" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">13 - 15 Jul 2023</a>
+                    </li>
+                    <li>
+                      <a href="#" class="card-tag">Pragati Maidan, New Delhi, India</a>
+                    </li>
+                    
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="https://10times.com/e1sk-485r-1kds" target="_blank" class="card-title hover:underline">
+                      Delhi Water Expo 2023
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Delhi Water Expo will exclusively focus on emerging technologies in the water & wastewater sector, collaboration, and consolidation of public-private sector players, along with regulatory, technical, and financial challenges faced by the industry.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./images/Screenshot (186).png" width="550" height="660" loading="lazy"
+                    alt="Being unique is better than being perfect" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">13 - 15 Sep 2023 </a>
+                    </li>
+                    <li>
+                      <a href="#" class="card-tag">Bombay Exhibition Centre, Mumbai, India </a>
+                    </li>
+                    
+                   
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="https://10times.com/clean-india" target="_blank" class="card-title hover:underline">
+                      Clean India Show 2023
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    The Clean India Show aims to unite cleaning and hygiene industry professionals and users to promote effective cleaning methods nationwide.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./images/Screenshot (188).png" width="550" height="660" loading="lazy"
+                    alt="Now we’re getting somewhere" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    
+                    <li>
+                      <a href="#" class="card-tag">20 - 22 Sep 2023</a>
+                    </li>
+                    <li>
+                      <a href="#" class="card-tag">Hotel Hesperia Tower, Barcelona, Spain</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="https://10times.com/cems-krakow" target="_blank" class="card-title hover:underline">
+                      International Conference and Exhibition on Emissions Monitoring 2023
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    CEM is an International Conference and Exhibition dedicated to Emission Monitoring. Delegates and Visitors will gain valuable insights into the latest regulation, technologies, and best practices in monitoring and measuring industrial emissions. 
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./images/Screenshot (190).png" width="550" height="660" loading="lazy"
+                    alt="The trick to getting more done is to have the freedom to roam around" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">16 - 18 Jun 2023</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Pragati Maidan, New Delhi, India</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="https://10times.com/ihff-new-delhi" target="_blank" class="card-title hover:underline">
+                      International Health, Sports & Fitness Expo 2023
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    International Health, Sports & Fitness Expo is a B2B fitness and wellness expo. It will provide countless opportunities for creating a better, healthier you
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./images/Screenshot (192).png" width="550" height="660" loading="lazy"
+                    alt="Every day, in every city and town across the country" class="img-cover">
+
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">25 - 27 Aug 2023</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Hitex Exhibition Center, Hyderabad, India</a>
+                    </li>
+
+                  </ul>
+                
+                  <h3 class="h4">
+                    <a href="https://10times.com/sportex-india" target="_blank" class="card-title hover:underline">
+                      Sport Expo India 2023
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    SportEx India is a top exhibition in the Sports, Fitness, and Wellness industry that unites brands, experts, and consumers to promote sports and fitness as a profitable industry and a channel for health and wellness. 
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./images/Screenshot (194).png" width="550" height="660" loading="lazy"
+                    alt="Your voice, your mind, your story, your vision" class="img-cover">
+
+              
+                </figure>
+
+                <div class="card-content">
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">23 - 25 Jun 2023</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Chennai Trade Centre,Chennai,India</a>
+                    </li>
+
+                  </ul>
+                  
+                  <h3 class="h4">
+                    <a href="https://10times.com/dsi-chennai" target="_blank" class="card-title hover:underline">
+                      Digital Convergence Expo 2023
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    We are very glad to inform you that we are proudly announcing our DIGITAL CONVERGENCE EXPO 2023 Concurrently with IOT (Internet Of Things)​ on 23,24​ and 25​​th of June 2023​ at CHENNAI TRADE CENTER, CHENNAI.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn">Load more</button>
+
+        </div>
+      </section>
+
+
+      <section class="section recommended" id="jobs" aria-label="recommended post">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <strong class="strong">Jobs Recommendations</strong>
+          </p>
+
+          <ul class="grid-list">
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./images/Screenshot (172).png" width="300" height="360" loading="lazy"
+                    alt="Every day, in every city and town across the country " class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="https://sscnr.net.in/bihar-police-vacancy-2023/" target="_blank" class="card-title hover:underline">
+                      Bihar Police Recruitment 2023 
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+         
+
+          
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./images/Screenshot (174).png" width="300" height="360" loading="lazy"
+                    alt="I work best when my space is filled with inspiration " class="img-cover">
+
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="https://www.adda247.com/jobs/sihfw-rajasthan-nursing-officer-recruitment/" target="_blank" class="card-title hover:underline">
+                      SIHFW Rajasthan Nursing Officer Recruitment 2023 Notification Out for 9879 Vacancies
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./images/Screenshot (176).png" width="300" height="360" loading="lazy"
+                    alt="I have my own definition of minimalism " class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="https://www.careerpower.in/blog/igcar-recruitment-2023" target="_blank" class="card-title hover:underline">
+                      IGCAR Recruitment 2023, Apply Online for 100 Posts
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./images/Screenshot (178).png" width="300" height="360" loading="lazy"
+                    alt="Change your look and your attitude " class="img-cover">
+
+           
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="https://www.adda247.com/jobs/india-post-office-recruitment-2023/" target="_blank" class="card-title hover:underline">
+                      India Post Office Recruitment 2023, Apply Online for 12828 Vacancies
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./images/Screenshot (180).png" width="300" height="360" loading="lazy"
+                    alt="The difference is quality " class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="https://www.adda247.com/engineering-jobs/nlc-recruitment-2023/" target="_blank" class="card-title hover:underline">
+                      NLC Recruitment 2023, Apply Online Started for 500 Vacancy
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./images/Screenshot (170).png" width="300" height="360" loading="lazy"
+                    alt="The trick to getting more done is to have the freedom to roam around " class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="https://www.indgovtjobs.in/2020/05/Online-Jobs-India-Lockdown.html" target="_blank" target="_blank" class="card-title hover:underline">
+                      Online Jobs in India 2023 | Work from Home
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <section class="section ">
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+        </div>
+        <ul >
+
+          <li>
+            <p class="h5">Social Links</p>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook"></ion-icon>
+
+            <a href="https://www.facebook.com" target="_blank" class="footer-link hover:underline">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <a href="https://www.twitter.com" target="_blank" class="footer-link hover:underline">Twitter</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-pinterest"></ion-icon>
+
+            <a href="https://www.pinterest.com" target="_blank" class="footer-link hover:underline">Pinterest</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-instagram"></ion-icon>
+
+            <a href="https://www.instagram.com" target="_blank" class="footer-link hover:underline">Instagram</a>
+          </li>
+
+        </ul>
+
+        
+
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          &copy; Copyright InfoVerse 
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
